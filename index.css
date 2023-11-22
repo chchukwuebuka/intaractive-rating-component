@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(28, 32, 34);;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    margin: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+}
+
+.container{
+    padding: 50px;
+    margin: 100px;
+    margin-left: 400px;
+}
+
+.nav{
+    padding: 40px;
+    width: 250px;
+    background-color: hsl(213, 19%, 18%);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#star{
+    height: 2vw;
+    width: 2vw;
+   border-radius: 50%;
+   background-color: hsl(213, 20%, 22%);
+   padding-left: 15px;
+   padding-top: 7px;
+   margin-bottom: 20px;
+}
+
+h1{
+    font-size: larger;
+}
+
+p{
+    font-size: small;
+    font-weight: 100px;
+    color: grey;
+    line-height: 1.2rem;
+}
+
+.BTN{
+    width: 250px;
+    padding: 8px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: small;
+    cursor: pointer;
+}
+
+.BTN:hover{
+    background-color: #ffffff;
+    color: hsl(25, 97%, 53%);
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.inner-number{
+    background-color: hsl(213, 20%, 22%);
+    color: #808080;
+    border-radius: 50%;
+    font-size: small;
+    margin-right: 24px;
+    border: none;
+    cursor: pointer;
+    padding-right: 6px;
+    width: 2rem;
+    height: 2rem;
+    transition: 0.3s;
+}
+
+ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+ul li button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+li{
+    list-style: none;
+}
+
+.thanks{
+    padding: 40px;
+    width: 250px;
+    background-color: hsl(213, 19%, 18%);
+    color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.thanks p.you{
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    width: 150px;
+    margin-left: 48px;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
